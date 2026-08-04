@@ -1,24 +1,32 @@
 # Shasuani
 
-Developer building business websites with **Astro** and **Tailwind CSS**, while levelling up in JavaScript and TypeScript.
+Developer building web and mobile applications with **TypeScript**, **React/React Native** and **Node.js**, alongside production business sites in **Astro** and **Tailwind CSS**.
 
-I learn by shipping: every project here is something I built end to end — from layout and styling through to SEO, build config and automated deployment.
+I learn by shipping. Everything below is something I built end to end — data model and API through to interface, build config and deployment.
 
 ---
 
-### What I'm working on
+### Selected work
 
-**Fedari — home maintenance company website**
-A production marketing site for a Dubai home-maintenance business. Static, fast, and search-friendly.
+**[Agency OS](https://github.com/Shasuani/agency-os)** — operations platform
+A Next.js and Supabase monorepo with a background worker: it watches an inbox over the Gmail API, classifies what arrives, drafts replies and follow-ups, and puts them in an approval queue rather than sending blind. Edited drafts are fed back as style examples.
+`TypeScript` `Next.js` `Supabase` `Postgres` `pnpm workspaces`
+
+**[Ranked Study App](https://github.com/Shasuani/ranked-study-app-backend)** — API + mobile client
+A study timer built as a ranked ladder: finish a focus session, earn XP and LP, climb tiers. The [backend](https://github.com/Shasuani/ranked-study-app-backend) is Express and Prisma with JWT auth, request validation, rate limiting and a layered controller/service split; the [mobile client](https://github.com/Shasuani/ranked-study-app-mobile) is React Native.
+`Node.js` `Express` `Prisma` `JWT` `React Native` `Expo`
+
+**[Fedari](https://github.com/Shasuani/fedari-web)** — production business site
+A marketing site for a Dubai home-maintenance company. Component-driven pages, lead capture, SEO metadata, generated sitemap, and continuous deployment to GitHub Pages.
 `Astro` `Tailwind CSS` `TypeScript` `GitHub Actions`
 
-- Component-driven pages for services, plans, careers and contact
-- Lead capture form, SEO metadata, sitemap generation and `robots.txt`
-- Continuous deployment to GitHub Pages on every push to `main`
+**[Ascend](https://github.com/Shasuani/ascend-mobile-app)** — mobile app
+A React Native app that turns long-term goals into a concrete daily plan.
+`React Native` `Expo`
 
-**Personal portfolio**
-Built from scratch without a framework, to understand the fundamentals before reaching for tooling.
-`HTML` `CSS` `JavaScript`
+**[Tokyo Night CV](https://github.com/Shasuani/tokyo-night-cv)** and **[Identity Hub](https://github.com/Shasuani/identity-hub-website)** — interactive front-end
+An explorable CV rendered as a walkable neon city, and a cinematic scroll-driven site about personal data. Both built on Three.js without a framework.
+`Three.js` `WebGL` `Chart.js`
 
 ---
 
@@ -26,14 +34,15 @@ Built from scratch without a framework, to understand the fundamentals before re
 
 | Area | Tools |
 | --- | --- |
-| Languages | JavaScript, TypeScript, HTML, CSS |
-| Frameworks | Astro, Tailwind CSS |
-| Tooling | Git, GitHub Actions, npm, VS Code |
+| Languages | TypeScript, JavaScript, SQL, HTML, CSS |
+| Front-end | React, React Native, Astro, Three.js, Tailwind CSS |
+| Back-end | Node.js, Express, Prisma, Postgres, Supabase |
+| Tooling | Git, GitHub Actions, pnpm, Expo, Vite, VS Code |
 
 ---
 
 ### Currently learning
 
-- TypeScript beyond the basics — types that actually catch mistakes
-- React, so I can build interactive interfaces as well as static ones
+- Testing at the level that lets me refactor without fear
 - Web performance and accessibility fundamentals
+- Getting deeper into type-level TypeScript

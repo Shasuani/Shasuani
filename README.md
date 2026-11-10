@@ -20,8 +20,8 @@ A Next.js and Supabase monorepo with a background worker: it watches an inbox ov
 A study timer built as a ranked ladder: finish a focus session, earn XP and LP, climb tiers. The [backend](https://github.com/Shasuani/ranked-study-app-backend) is Express and Prisma with JWT auth, request validation, rate limiting and a layered controller/service split; the [mobile client](https://github.com/Shasuani/ranked-study-app-mobile) is React Native.
 `Node.js` `Express` `Prisma` `JWT` `React Native` `Expo`
 
-**[Fedari](https://github.com/Shasuani/fedari-web)** — production business site
-A marketing site for a Dubai home-maintenance company. Component-driven pages, lead capture, SEO metadata, generated sitemap, and continuous deployment to GitHub Pages.
+**[Fedari](https://github.com/Shasuani/fedari-web)** — client business site · [live demo](https://shasuani.github.io/fedari-web/)
+A marketing site built for a Dubai home-maintenance company. Component-driven pages, lead capture, SEO metadata, generated sitemap, and continuous deployment to GitHub Pages.
 `Astro` `Tailwind CSS` `TypeScript` `GitHub Actions`
 
 **[Ascend](https://github.com/Shasuani/ascend-mobile-app)** — mobile app

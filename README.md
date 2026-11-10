@@ -1,52 +1,31 @@
-# Hi, I'm Konstantinos Kolta 👋
+# Hi, I'm Konstantinos 👋
 
-Junior software engineer and Computer Science student (University of East London) building web, desktop and mobile applications with **TypeScript**, **React/React Native**, **Node.js** and **Python/FastAPI**, alongside client business sites in **Astro** and **Tailwind CSS**.
+I'm a CS student at the University of East London, based in Athens. I build web apps, plus the odd desktop and mobile app. Most of my code is TypeScript and React, and lately a lot of Python with FastAPI. I also do freelance websites for small businesses.
 
-I learn by shipping. Everything below is something I built end to end — data model and API through to interface, build config and deployment.
+Right now most of my time goes into **AgonCup**. It's live and people actually use it, so I spend a lot of time fixing bugs.
 
----
+### What I'm working on
 
-### Selected work
+**[AgonCup](https://github.com/Shasuani/AgonCup)** ([live beta](https://lol.gameras.gr))
+A friend and I built this so Discord servers can run League of Legends tournaments without doing everything by hand. 5 Greek Discord communities use it. There's a Discord bot for sign-ups, a FastAPI + Postgres backend, a React admin panel, and an Electron app that creates the custom game in the League client and starts it automatically. After each game we compare what all 10 players' clients report before accepting a winner, because any single report can be faked.
+`Python` `FastAPI` `PostgreSQL` `Redis` `Electron` `React` `TypeScript` `Docker`
 
-**[AgonCup](https://github.com/Shasuani/AgonCup)** — tournament platform (team project) · [live public beta](https://lol.gameras.gr)
-A multi-tenant League of Legends tournament platform, used by 5 Greek Discord communities. A Discord bot handles sign-up and tournament commands, and an Electron desktop client creates and starts custom lobbies through the local League client API, with automatic host failover. Results are accepted only when at least 6 of the 10 players' reports agree. The FastAPI backend isolates each Discord server's data with Postgres row-level security, and admins manage everything from a React console.
-`Python` `FastAPI` `PostgreSQL` `Redis` `WebSockets` `Electron` `React` `TypeScript` `Docker`
+### Other stuff I've built
 
-**[Agency OS](https://github.com/Shasuani/agency-os)** — operations platform
-A Next.js and Supabase monorepo with a background worker: it watches an inbox over the Gmail API, classifies what arrives, drafts replies and follow-ups, and puts them in an approval queue rather than sending blind. Edited drafts are fed back as style examples.
-`TypeScript` `Next.js` `Supabase` `Postgres` `pnpm workspaces`
+- **[Agency OS](https://github.com/Shasuani/agency-os)**: a dashboard for my freelance work. The idea is that a background worker reads my inbox through the Gmail API, sorts the mail and drafts follow-ups, and nothing gets sent until I approve it. The code and tests are done, but I haven't hooked it up to my real inbox yet. (Next.js, Supabase)
+- **[Ranked Study App](https://github.com/Shasuani/ranked-study-app-backend)**: a focus timer where study sessions earn XP and you climb ranks like in a game. Express + Prisma API with JWT auth, and a [React Native app](https://github.com/Shasuani/ranked-study-app-mobile).
+- **[Ascend](https://github.com/Shasuani/ascend-mobile-app)**: a React Native app that turns long-term goals into a daily plan, and still works offline when the AI part isn't available.
+- **[Fedari](https://github.com/Shasuani/fedari-web)**: a site I built for a home-maintenance company in Dubai, in Astro + Tailwind ([demo](https://shasuani.github.io/fedari-web/)).
+- **[Tokyo Night CV](https://github.com/Shasuani/tokyo-night-cv)**: my CV as a little neon city you can walk around in, built with Three.js. Mostly for fun.
 
-**[Ranked Study App](https://github.com/Shasuani/ranked-study-app-backend)** — API + mobile client
-A study timer built as a ranked ladder: finish a focus session, earn XP and LP, climb tiers. The [backend](https://github.com/Shasuani/ranked-study-app-backend) is Express and Prisma with JWT auth, request validation, rate limiting and a layered controller/service split; the [mobile client](https://github.com/Shasuani/ranked-study-app-mobile) is React Native.
-`Node.js` `Express` `Prisma` `JWT` `React Native` `Expo`
+### Tools
 
-**[Fedari](https://github.com/Shasuani/fedari-web)** — client business site · [live demo](https://shasuani.github.io/fedari-web/)
-A marketing site built for a Dubai home-maintenance company. Component-driven pages, lead capture, SEO metadata, generated sitemap, and continuous deployment to GitHub Pages.
-`Astro` `Tailwind CSS` `TypeScript` `GitHub Actions`
+TypeScript, JavaScript, Python, SQL · React, React Native, Electron, Astro, Tailwind · Node.js, Express, FastAPI, Postgres, Redis, Supabase · Docker, GitHub Actions, GitLab CI
 
-**[Ascend](https://github.com/Shasuani/ascend-mobile-app)** — mobile app
-A React Native app that turns long-term goals into a concrete daily plan.
-`React Native` `Expo`
+### Currently trying to get better at
 
-**[Tokyo Night CV](https://github.com/Shasuani/tokyo-night-cv)** and **[Identity Hub](https://github.com/Shasuani/identity-hub-website)** — interactive front-end
-An explorable CV rendered as a walkable neon city, and a cinematic scroll-driven site about personal data. Both built on Three.js without a framework.
-`Three.js` `WebGL` `Chart.js`
+- writing tests I actually trust
+- web performance and accessibility
+- TypeScript types beyond the basics
 
----
-
-### Tools I work with
-
-| Area | Tools |
-| --- | --- |
-| Languages | TypeScript, JavaScript, Python, SQL, HTML, CSS |
-| Front-end | React, React Native, Electron, Astro, Three.js, Tailwind CSS |
-| Back-end | Node.js, Express, Prisma, Python, FastAPI, Postgres, Redis, Supabase |
-| Tooling | Git, GitHub Actions, GitLab CI, Docker, pnpm, uv, Expo, Vite, VS Code |
-
----
-
-### Currently learning
-
-- Testing at the level that lets me refactor without fear
-- Web performance and accessibility fundamentals
-- Getting deeper into type-level TypeScript
+Find me on [LinkedIn](https://www.linkedin.com/in/konstantinoskolta) or check out my [portfolio](https://shasuani.github.io/portfolio-website/).

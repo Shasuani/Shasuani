@@ -1,12 +1,16 @@
 # Shasuani
 
-Developer building web and mobile applications with **TypeScript**, **React/React Native** and **Node.js**, alongside production business sites in **Astro** and **Tailwind CSS**.
+Developer building web, desktop and mobile applications with **TypeScript**, **React/React Native**, **Node.js** and **Python/FastAPI**, alongside production business sites in **Astro** and **Tailwind CSS**.
 
 I learn by shipping. Everything below is something I built end to end — data model and API through to interface, build config and deployment.
 
 ---
 
 ### Selected work
+
+**[AgonCup](https://github.com/Shasuani/AgonCup)** — tournament platform (team project)
+A multi-tenant League of Legends tournament platform. A Discord bot handles sign-up and tournament commands, and an Electron desktop client creates and starts custom lobbies through the local League client API, with automatic host failover. Results are accepted only when at least 6 of the 10 players' reports agree. The FastAPI backend isolates each Discord server's data with Postgres row-level security, and admins manage everything from a React console.
+`Python` `FastAPI` `PostgreSQL` `Redis` `WebSockets` `Electron` `React` `TypeScript` `Docker`
 
 **[Agency OS](https://github.com/Shasuani/agency-os)** — operations platform
 A Next.js and Supabase monorepo with a background worker: it watches an inbox over the Gmail API, classifies what arrives, drafts replies and follow-ups, and puts them in an approval queue rather than sending blind. Edited drafts are fed back as style examples.
@@ -34,10 +38,10 @@ An explorable CV rendered as a walkable neon city, and a cinematic scroll-driven
 
 | Area | Tools |
 | --- | --- |
-| Languages | TypeScript, JavaScript, SQL, HTML, CSS |
-| Front-end | React, React Native, Astro, Three.js, Tailwind CSS |
-| Back-end | Node.js, Express, Prisma, Postgres, Supabase |
-| Tooling | Git, GitHub Actions, pnpm, Expo, Vite, VS Code |
+| Languages | TypeScript, JavaScript, Python, SQL, HTML, CSS |
+| Front-end | React, React Native, Electron, Astro, Three.js, Tailwind CSS |
+| Back-end | Node.js, Express, Prisma, Python, FastAPI, Postgres, Redis, Supabase |
+| Tooling | Git, GitHub Actions, GitLab CI, Docker, pnpm, uv, Expo, Vite, VS Code |
 
 ---
 

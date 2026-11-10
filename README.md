@@ -1,6 +1,6 @@
 # Shasuani
 
-Developer building web, desktop and mobile applications with **TypeScript**, **React/React Native**, **Node.js** and **Python/FastAPI**, alongside production business sites in **Astro** and **Tailwind CSS**.
+Junior software engineer and Computer Science student (University of East London) building web, desktop and mobile applications with **TypeScript**, **React/React Native**, **Node.js** and **Python/FastAPI**, alongside production business sites in **Astro** and **Tailwind CSS**.
 
 I learn by shipping. Everything below is something I built end to end — data model and API through to interface, build config and deployment.
 
@@ -8,8 +8,8 @@ I learn by shipping. Everything below is something I built end to end — data m
 
 ### Selected work
 
-**[AgonCup](https://github.com/Shasuani/AgonCup)** — tournament platform (team project)
-A multi-tenant League of Legends tournament platform. A Discord bot handles sign-up and tournament commands, and an Electron desktop client creates and starts custom lobbies through the local League client API, with automatic host failover. Results are accepted only when at least 6 of the 10 players' reports agree. The FastAPI backend isolates each Discord server's data with Postgres row-level security, and admins manage everything from a React console.
+**[AgonCup](https://github.com/Shasuani/AgonCup)** — tournament platform (team project) · [live public beta](https://lol.gameras.gr)
+A multi-tenant League of Legends tournament platform, used by 5 Greek Discord communities. A Discord bot handles sign-up and tournament commands, and an Electron desktop client creates and starts custom lobbies through the local League client API, with automatic host failover. Results are accepted only when at least 6 of the 10 players' reports agree. The FastAPI backend isolates each Discord server's data with Postgres row-level security, and admins manage everything from a React console.
 `Python` `FastAPI` `PostgreSQL` `Redis` `WebSockets` `Electron` `React` `TypeScript` `Docker`
 
 **[Agency OS](https://github.com/Shasuani/agency-os)** — operations platform

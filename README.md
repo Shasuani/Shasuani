@@ -1,6 +1,6 @@
-# Shasuani
+# Hi, I'm Konstantinos Kolta 👋
 
-Junior software engineer and Computer Science student (University of East London) building web, desktop and mobile applications with **TypeScript**, **React/React Native**, **Node.js** and **Python/FastAPI**, alongside production business sites in **Astro** and **Tailwind CSS**.
+Junior software engineer and Computer Science student (University of East London) building web, desktop and mobile applications with **TypeScript**, **React/React Native**, **Node.js** and **Python/FastAPI**, alongside client business sites in **Astro** and **Tailwind CSS**.
 
 I learn by shipping. Everything below is something I built end to end — data model and API through to interface, build config and deployment.
 
